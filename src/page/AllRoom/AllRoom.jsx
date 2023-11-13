@@ -14,7 +14,7 @@ const AllRoom = () => {
   
 
    useEffect(() =>{
-       fetch('https://assinment-11-server-llfqczu22-farue10.vercel.app/review')
+       fetch('https://assinment-11-server-109g4hhw4-farue10.vercel.app/review')
        .then(res =>res.json())
        .then(data =>setreview(data))
    },[])

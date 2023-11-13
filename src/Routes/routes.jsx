@@ -24,12 +24,12 @@ const Routes = createBrowserRouter([
             {
                 path:"/all-room",
                 element:<AllRoom></AllRoom>,
-                loader: () => fetch("https://assinment-11-server-llfqczu22-farue10.vercel.app/roomdata")
+                loader: () => fetch("https://assinment-11-server-109g4hhw4-farue10.vercel.app/roomdata")
             },
             {
                 path:"/room/:_id",
                 element:<Detailcard></Detailcard>,
-                loader: () => fetch("https://assinment-11-server-llfqczu22-farue10.vercel.app/roomdata")
+                loader: () => fetch("https://assinment-11-server-109g4hhw4-farue10.vercel.app/roomdata")
                 
             },
             {

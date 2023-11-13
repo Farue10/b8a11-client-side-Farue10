@@ -10,7 +10,7 @@ const FeaturePost = () => {
     const [Room,setroom] = useState([])
    
    useEffect(() =>{
-    fetch('https://assinment-11-server-llfqczu22-farue10.vercel.app/roomdata')
+    fetch('https://assinment-11-server-109g4hhw4-farue10.vercel.app/roomdata')
     .then(res =>res.json())
     .then(data => setroom(data))
    },[])

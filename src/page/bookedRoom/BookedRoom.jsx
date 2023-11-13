@@ -21,7 +21,7 @@ console.log(fData)
 
 useEffect(() => {
     axios
-      .get(`https://assinment-11-server-llfqczu22-farue10.vercel.app/bookedroom?email=${user?.email}`, {
+      .get(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/bookedroom?email=${user?.email}`, {
         withCredentials: true,
       })
       .then((res) => setRoom(res.data));
@@ -84,7 +84,7 @@ useEffect(() => {
         
 //     };
 
-//    fetch(`https://assinment-11-server-llfqczu22-farue10.vercel.app/bookedroom/${data._id}`,{
+//    fetch(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/bookedroom/${data._id}`,{
 //     method:"PATCH",
 //     headers:{
 //         'content-type': 'application/json'
@@ -115,7 +115,7 @@ const DeleteHandler = (_id) =>{
       }).then((result) => {
         if (result.isConfirmed) {
     
-        fetch(`https://assinment-11-server-llfqczu22-farue10.vercel.app/bookedroom/${_id}`,{
+        fetch(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/bookedroom/${_id}`,{
             method:"DELETE",
            
         })
@@ -130,7 +130,7 @@ const DeleteHandler = (_id) =>{
               )
               RoomSetHandler()
               axios
-      .get(`https://assinment-11-server-llfqczu22-farue10.vercel.app/bookedroom?email=${user?.email}`, {
+      .get(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/bookedroom?email=${user?.email}`, {
         withCredentials: true,
       })
       .then((res) => {
@@ -201,7 +201,7 @@ console.log(userid);
        };
   
 
-   fetch(`https://assinment-11-server-llfqczu22-farue10.vercel.app/bookedroom/${fData._id}`,{
+   fetch(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/bookedroom/${fData._id}`,{
     method:"PUT",
     headers:{
         'content-type': 'application/json'
@@ -221,7 +221,7 @@ console.log(userid);
               navigate('/booked-room')
             //   RoomSetHandler()
             axios
-            .get(`https://assinment-11-server-llfqczu22-farue10.vercel.app/bookedroom?email=${user?.email}`, {
+            .get(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/bookedroom?email=${user?.email}`, {
               withCredentials: true,
             })
             .then((res) => {
@@ -273,7 +273,7 @@ const RoomSetHandler = () =>{
         
     // };
 
-//    fetch(`https://assinment-11-server-llfqczu22-farue10.vercel.app/roomdata/${data._id}`,{
+//    fetch(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/roomdata/${data._id}`,{
 //     method:"PUT",
 //     headers:{
 //         'content-type': 'application/json'

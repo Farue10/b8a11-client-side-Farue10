@@ -107,7 +107,7 @@ const Detailcard = () => {
         console.log(Data);
         
     
-       fetch(`https://assinment-11-server-llfqczu22-farue10.vercel.app/bookedroom`,{
+       fetch(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/bookedroom`,{
         method:"POST",
         headers:{
             'content-type': 'application/json'
@@ -164,7 +164,7 @@ const Detailcard = () => {
             
         };
     
-       fetch(`https://assinment-11-server-llfqczu22-farue10.vercel.app/roomdata/${data._id}`,{
+       fetch(`https://assinment-11-server-109g4hhw4-farue10.vercel.app/roomdata/${data._id}`,{
         method:"PUT",
         headers:{
             'content-type': 'application/json'
